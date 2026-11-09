@@ -17,3 +17,10 @@
 - Los datos se comparten mediante una contraseña común. No hay cuentas ni roles individuales. Evita introducir datos sensibles.
 - Las funciones y Blobs consumen recursos del plan de Netlify. El objetivo de 100 créditos no puede garantizarse; revisa el panel de uso de Netlify.
 - Si ya usabas la versión local, exporta primero un respaldo y prueba la migración en un solo dispositivo antes de conectar otros.
+
+
+## Versión 3
+- Nuevo mapa Leaflet/OpenStreetMap a pantalla completa, localización de visitas y trazado de rutas caminando o en automóvil mediante servicio público de rutas (sujeto a disponibilidad). Para transporte público usar Google Maps.
+- Cabecera fija con saldo real y saldo proyectado separados. El saldo real descuenta solo Pagado; el proyectado descuenta todos los gastos seleccionados, incluyendo pagados.
+- Los datos existentes no se eliminan; se mantiene la estructura JSON y la sincronización de Netlify.
+- Los servicios de geocodificación/rutas públicos requieren conexión y pueden limitar peticiones; no hay garantía de disponibilidad ni de exactitud.
